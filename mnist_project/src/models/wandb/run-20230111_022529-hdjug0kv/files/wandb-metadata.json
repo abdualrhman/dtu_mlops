@@ -1,0 +1,42 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2023-01-11T01:25:29.961983",
+    "startedAt": "2023-01-11T01:25:29.135752",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/abdulrahman/Documents/DTU/mlops/dtu_mlops/mnist_project/src/models/train_model.py",
+    "codePath": "mnist_project/src/models/train_model.py",
+    "git": {
+        "remote": "git@github.com:SkafteNicki/dtu_mlops.git",
+        "commit": "228ceef1b3ae60ef4973bf926fccad356d21ab67"
+    },
+    "email": "abdulrahman.ramdan@outlook.com",
+    "root": "/Users/abdulrahman/Documents/DTU/mlops/dtu_mlops",
+    "host": "Abdulrahmans-MacBook-Pro.local",
+    "username": "abdulrahman",
+    "executable": "/Users/abdulrahman/opt/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 20.79437255859375
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
