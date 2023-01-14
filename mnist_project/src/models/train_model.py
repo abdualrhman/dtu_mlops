@@ -40,6 +40,8 @@ def training() -> None:
         for batch in dataloader:
             optimizer.zero_grad()
             x, y = batch
+            print("x[0].shape")
+            print(x[0].shape)
             preds = model(x.to(device))
             loss = criterion(preds, y.to(device))
             loss.backward()

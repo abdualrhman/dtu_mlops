@@ -62,6 +62,8 @@ class CorruptMnist(Dataset):
         try:
             self.data, self.targets = torch.load(
                 f"{self.out_folder}/{split}_processed.pt")
+            print(self.data.shape)
+            print(self.targets.shape)
         except:
             raise ValueError("No preprocessed files found")
 
