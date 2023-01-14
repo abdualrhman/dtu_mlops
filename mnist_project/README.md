@@ -1,1 +1,1 @@
-## MNISt project
+# MNIST project
